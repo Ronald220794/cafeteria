@@ -41,8 +41,10 @@ INSTALLED_APPS = [
     'core',
     'blog',
     'contact',
+    'productos',
     'services.apps.ServicesConfig',
-    'rest_framework'
+    'rest_framework',
+    'cafeteria',
 ]
 
 MIDDLEWARE = [

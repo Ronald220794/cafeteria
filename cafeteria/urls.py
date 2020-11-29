@@ -18,11 +18,11 @@ from django.urls import path, include
 from django.conf import settings
 
 urlpatterns = [
+    path('cafeteria/', include(('productos.urls','cafeteria'))),
     path('', include('core.urls')),
     path('services/', include('services.urls')),
     path('contact/', include('contact.urls')),
     path('blog/', include('blog.urls')),
-
     path('admin/', admin.site.urls),
 ]
 
